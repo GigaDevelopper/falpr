@@ -1,0 +1,39 @@
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeLists.txt.user
+*.cmake
+*.cbp
+*.vcxproj*
+*.sln
+
+# Build artifacts
+/build/
+/cmake-build-debug/
+out/
+bin/
+obj/
+*.o
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+*.exp
+*.pdb
+
+# Logs & IDE-specific
+*.log
+*.swp
+*.swo
+.vscode/
+.idea/
+*.DS_Store
+
+# Generated files
+compile_commands.json
+Testing/
+CTestTestfile.cmake
