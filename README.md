@@ -1,47 +1,71 @@
-<div align="center"><a title="" href="https://gitlab.com/watchdog-host/libs/walpr"><img align="center" src="logo.svg" alt="" width="320" height="320"></a></div>
+# FALPR
 
 <p align="center">
-  WALPR provides a complete License Plate Detection and Recognition algorithm
-<br>
-<br>
-  <a href="https://github.com/RichardLitt/standard-readme"><img src="https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square" alt=""></a>
-  <a href="https://conventionalcommits.org"><img src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg" alt=""></a>
-  <a href="http://commitizen.github.io/cz-cli/"><img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" alt=""></a>
+  <a href="https://gitlab.com/watchdog-host/libs/falpr">
+    <img src="logo.svg" alt="FALPR Logo" width="320" height="320">
+  </a>
 </p>
 
-## Table of Contents
+<p align="center">
+  <strong>FALPR: License Plate Detection and Recognition</strong>
+</p>
 
-- [Install](#Installation guidlines)
-- [Background](#Examples)
-- [Prepare Data](#Abouts WatchDog)
-- [Thanks](#thanks)
+<p align="center">
+  <a href="https://github.com/RichardLitt/standard-readme">
+    <img src="https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square" alt="Standard Readme">
+  </a>
+  <a href="https://conventionalcommits.org">
+    <img src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg" alt="Conventional Commits">
+  </a>
+  <a href="http://commitizen.github.io/cz-cli/">
+    <img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" alt="Commitizen Friendly">
+  </a>
+</p>
+
+---
+
+## 📌 Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Data Preparation](#data-preparation)
 - [Contributing](#contributing)
+- [Community](#community)
 - [License](#license)
 
-## Install
-```
-git clone https://gitlab.com/watchdog-host/libs/walpr
-cd walpr
+## 🚀 Installation
+
+```bash
+git clone https://gitlab.com/watchdog-host/libs/falpr
+cd falpr
 mkdir build && cd build
 cmake ..
 make install
 ```
 
-## Thanks
+## 📖 Usage
 
+Coming soon...
 
-## Contributing
+## 📂 Data Preparation
 
-Anyone's participation is welcome! Open an [issue](https://github.com/zjykzj/LPDet/issues) or submit PRs.
+Information about preparing datasets will be added soon.
 
-Small note:
+## 🤝 Contributing
 
-* Git submission specifications should be complied
-  with [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/)
-* If versioned, please conform to the [Semantic Versioning 2.0.0](https://semver.org) specification
-* If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme)
-  specification.
+We welcome contributions! Feel free to open an [issue](https://github.com/zjykzj/LPDet/issues) or submit a PR.
 
-## License
+### Contribution Guidelines:
+- Follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/) standard.
+- Adhere to [Semantic Versioning 2.0.0](https://semver.org) if versioning is needed.
+- Keep README updates in line with [standard-readme](https://github.com/RichardLitt/standard-readme).
 
-© 2024 WatchDog
+## 🌍 Community
+
+Join our Telegram channel for discussions, updates, and support:
+[![Telegram](https://img.shields.io/badge/Telegram-Join%20Us-blue)](https://t.me/FALPR_Community)
+
+## 📜 License
+It's Open Source but before using please see ultralytics licence
+
+© 2024 AlgoVision Solution. All rights reserved.
