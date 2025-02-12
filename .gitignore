@@ -12,6 +12,7 @@ CMakeLists.txt.user
 # Build artifacts
 /build/
 /cmake-build-debug/
+examples/**/cmake-build-*/
 out/
 bin/
 obj/

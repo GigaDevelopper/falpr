@@ -1,6 +1,6 @@
-#include "falpr/PlateDetector.h"
+#include "FALPR/PlateDetector.h"
 
-#include "falpr/Utils.h"
+#include "FALPR/Utils.h"
 
 #include <opencv2/imgproc.hpp>
 

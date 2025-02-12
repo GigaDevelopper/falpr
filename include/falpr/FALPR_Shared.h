@@ -1,6 +1,3 @@
-//
-// Created by azmiddin on 2/12/25.
-//
 
 #ifndef FALPR_SHARED_H
 #define FALPR_SHARED_H
@@ -12,7 +9,6 @@
 #  define Q_DECL_EXPORT     __attribute__((visibility("default")))
 #  define Q_DECL_IMPORT     __attribute__((visibility("default")))
 #endif
-
 #if defined(FALPR_LIBRARY)
 #  define FALPR_EXPORT Q_DECL_EXPORT
 #else

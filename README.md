@@ -1,7 +1,7 @@
 # FALPR
 
 <p align="center">
-  <a href="https://gitlab.com/watchdog-host/libs/falpr">
+  <a href="https://github.com/GigaDevelopper/FALPR">
     <img src="logo.svg" alt="FALPR Logo" width="320" height="320">
   </a>
 </p>
@@ -36,7 +36,7 @@
 ## 🚀 Installation
 
 ```bash
-git clone https://gitlab.com/watchdog-host/libs/falpr
+git clone https://github.com/GigaDevelopper/FALPR
 cd falpr
 mkdir build && cd build
 cmake ..
@@ -46,6 +46,11 @@ make install
 ## 📖 Usage
 
 Coming soon...
+<p align="center">
+  <a href="https://github.com/GigaDevelopper/FALPR">
+    <img src="example.png" alt="FALPR Logo" width="320" height="320">
+  </a>
+</p>
 
 ## 📂 Data Preparation
 

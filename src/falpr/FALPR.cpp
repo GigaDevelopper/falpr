@@ -1,8 +1,8 @@
 //
 // Created by azmiddin on 2/12/25.
 //
-#include "falpr/FALPR.h"
-#include "falpr/Utils.h"
+#include "FALPR/FALPR.h"
+#include "FALPR/Utils.h"
 
 #include <iomanip>
 #include <iostream>

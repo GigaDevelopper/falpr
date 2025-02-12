@@ -1,6 +1,6 @@
-#include "falpr/PlateRecognizer.h"
+#include "FALPR/PlateRecognizer.h"
 
-#include "falpr/Utils.h"
+#include "FALPR/Utils.h"
 
 falpr::PlateRecognizer::PlateRecognizer(const float &threshold, const std::string &modelPath) :
     scoreThreshold_(threshold),
