@@ -11,7 +11,7 @@
 #include "VehicleDetector.h"
 
 namespace falpr {
-class FALPR_EXPORT WALPR
+class FALPR_EXPORT FALPR
 {
 public:
   struct Result {
@@ -20,7 +20,7 @@ public:
     PlateRecognizer::License license;
   };
 
-  WALPR(const float &charConfidence,
+  FALPR(const float &charConfidence,
         const float &overallConfidence,
         const PlateDetector::ModelSize &modelSize,
         const std::string &modelPath);

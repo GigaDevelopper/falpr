@@ -8,7 +8,7 @@
 #include <iostream>
 #include <opencv2/imgproc.hpp>
 
-falpr::WALPR::WALPR(const float &charConfidence,
+falpr::FALPR::FALPR(const float &charConfidence,
                     const float &overallConfidence,
                     const PlateDetector::ModelSize &modelSize,
                     const std::string &modelPath):
@@ -19,7 +19,7 @@ falpr::WALPR::WALPR(const float &charConfidence,
 {
 }
 
-std::vector<falpr::WALPR::Result> falpr::WALPR::recognize(const cv::Mat &image)
+std::vector<falpr::FALPR::Result> falpr::FALPR::recognize(const cv::Mat &image)
 {
     std::vector<Result> results;
 
@@ -32,7 +32,7 @@ std::vector<falpr::WALPR::Result> falpr::WALPR::recognize(const cv::Mat &image)
 
     for(const VehicleDetector::Vehicle &vehicle: detectedVehicles) {
         // detect license plate
-        cv::Mat croppedVehicle = falpr::cropFrame(image, vehicle.boundingBox);
+        cv::Mat croppedVehicle = falpr::utils::cropFrame(image, vehicle.boundingBox);
         for(PlateDetector::Plate &plate: plateDetector_.detect(croppedVehicle)) {
             // recognize license plate
             cv::Mat croppedPlate = PlateDetector::cropPlate(croppedVehicle, plate);
@@ -67,7 +67,7 @@ std::vector<falpr::WALPR::Result> falpr::WALPR::recognize(const cv::Mat &image)
     return results;
 }
 
-void falpr::WALPR::drawResult(cv::Mat &image,
+void falpr::FALPR::drawResult(cv::Mat &image,
                               const Result &result,
                               const cv::Scalar &color)
 {
